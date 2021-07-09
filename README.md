@@ -7,7 +7,7 @@ Data are from the CLEF corpus (used previously in several CLEF question answerin
 
 clef.np1/np2.* are high and low attachment cases respectively.
 
-clef.* .rmask files are identical to mask except that the mask is written as <mask> instead of [MASK]. They are input for the Roberta models XML-R and Robbert.
+clef.* .rmask files are identical to mask except that the mask is written as \<mask\> instead of [MASK]. They are input for the Roberta models XML-R and Robbert.
   
 The *.rc.mask files are synthetic data used for regression testing, where left and right contexts where left contexts have been combined with a random right context with either a matching or nonmatching rel pronoun. 
   
